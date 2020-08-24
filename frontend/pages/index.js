@@ -9,11 +9,11 @@ const Home = () => {
         <span className="logo"><Link href="/"><a>Logo</a></Link></span>
         <span className="linkBtn-container">
           <li className="linkBtn"><Link href=""><a>linkBtn</a></Link></li>
-          <li className="linkBtn"><Link href=""><a>linkBtn</a></Link></li>
-          <li className="linkBtn"><Link href=""><a>linkBtn</a></Link></li>
+          <li className="linkBtn"><Link href="/community"><a>community</a></Link></li>
+          <li className="linkBtn"><Link href="/backtest"><a>dashboard</a></Link></li>
         </span>
         
-        <span className="profile"><Link href=""><a>profile</a></Link></span>
+        <span className="profile"><Link href="/profile"><a>profile</a></Link></span>
       </nav>
       <section className="main">
         {/* main */}
