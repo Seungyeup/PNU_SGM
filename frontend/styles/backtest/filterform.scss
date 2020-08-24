@@ -1,0 +1,38 @@
+.filter-form {
+  font-size: 13px;
+  width: 100%;
+  height: auto;
+
+  input {
+    border: none;
+    width: 7vh;
+    margin: 1vh;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 0.5px solid white;
+  }
+  input:focus {
+    outline: 0;
+  }
+
+  .filter-layout {
+    width: 100%;
+    // background: pink;
+    padding: 1vh;
+    background: rgba(255, 255, 255, 0.05);
+    // opacity: 5%;
+
+    .filter-layout-title {
+      color: white;
+      width: 30%;
+      margin: 0 35% 0 35%;
+      height: 20px;
+      background: black;
+      text-align: center;
+    }
+
+    .filter-layout-contents {
+      color: white;
+    }
+  }
+}

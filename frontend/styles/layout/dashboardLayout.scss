@@ -1,0 +1,89 @@
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  // background: pink;
+
+  .dashboard-nav {
+    display: flex;
+    height: 50px;
+    // align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    div {
+      display: flex;
+      align-items: center;
+      // background :pink;
+
+      height: 100%;
+      margin-right: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 100%;
+      font-family: myriad-pro-semiextended, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      // align-content: space-around;
+    }
+    .logo {
+      flex-grow: 15;
+      a {
+        background-image: url(../../static/img/logoWhite.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        height: 6vh;
+        // height: 100%;
+        // width: 20%;
+        min-width: 45px;
+      }
+    }
+    .profile {
+      a {
+        background-image: url(../../static/img/profileImg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        height: 100%;
+        // width: 20%;
+        min-width: 45px;
+      }
+    }
+    .backtest,
+    .community,
+    .mypage,
+    .profile {
+      flex-grow: 1;
+      flex-basis: 50px;
+      margin-left: 2%;
+
+      // background: pink;
+      // opacity: 30%;
+      // a {
+      //     display: block;
+      //     margin-top: 10%;
+      // }
+    }
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+
+    aside {
+      width: 50px;
+      height: calc(100vh - 50px);
+      background: rgb(132, 132, 187);
+    }
+
+    main {
+      width: calc(100vw - 50px);
+      height: calc(96vh - 55px);
+      // background: pink;
+      padding: 5px;
+      margin-top: 3vh;
+    }
+  }
+}
