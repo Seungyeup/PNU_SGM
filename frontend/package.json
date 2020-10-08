@@ -15,7 +15,7 @@
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "mongodb": "^3.6.1",
-    "next": "^9.5.1",
+    "next": "^9.5.4",
     "next-connect": "^0.8.1",
     "next-redux-wrapper": "^5.0.0",
     "react": "^16.13.1",
